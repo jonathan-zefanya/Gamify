@@ -1,0 +1,32 @@
+[11-May-2025 13:14:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php on line 18
+[11-May-2025 13:14:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php on line 18
+[11-May-2025 13:15:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php on line 18
+[11-May-2025 13:15:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php on line 18
+[15-May-2025 20:58:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php on line 18
+[15-May-2025 20:58:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/database.php on line 18
+[15-May-2025 20:58:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php on line 18
+[15-May-2025 20:58:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zyrs8966/public_html/toko-topup.zyrex.win/config/services.php on line 18

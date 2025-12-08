@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gamers-haven-f02fc",
+  "private_key_id": "c1ef95fa8b34477a07b484997b24ccd5532c3c57",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQU/ZvZiuiynDk\nsdOu5Y6GJRdpDvBnoxyN19nhjYvt+2EKrwbLezfKBxmvZIJrLgH/V4+Ln5XyIXaH\nORmmYV0t3qsCaXa+QPBMLyUIawUV+vyExUgklWEzc/tbkFiV/pKY6DGBL9JNCazh\nDbSHohBUG2DWKRQCzFFgQ4ZqUOneSls0XqlVGA8qpmm8kJr38mt9GKaG1XRkTA/y\nXC1OfAPGjEwgLo+ncMTDaGZisDTWqTophrbtRdLimgBqefc5fHmTS5547C0g1B25\n8WJC8w12iKFhEn6/oyneLMJ9Qbj20CTerK1EU+CftBeNRS5pZ3oRAGzBXt+kdIf8\nqT3OvoAVAgMBAAECggEAJTPxTMiCn2ImkfidtFyDPLpv+U91KBTNWxlCbBCiff/H\nvygtfvYEqvvkntlEnw5KxgYleMopdWF7cL+GMJuvj6r1gAtEbMpc/0XmB6BQ+rFl\nGfK/JOVWQ+GA8EORRkv9cvf4KzlWhXJmYJRZemU7JEH1Y5lXXP6Ow7GbVe4YLZ1o\nKgm9P6tdqg+/6OqEXGy7Gnf4eWQEWgOTyQzzWFSa6cae/3hNM0DHkyF+e25AdP4L\nHsSjL7H56ON93MrUr4V5qd4d2VD6pdKA1SceomrEFyVu5pA/VY1ivgKgKAOEFPVs\nL4q/0rUBwjS0NmwYjio6UuRxy6CPJ/WbXbxg7oB0sQKBgQDwmEtFtLYpNOXlvbpp\nlEoxqs9WSdN6qORywcoxf6zq/B0knFCN4qkzFvmoyvEKHDfdHH9pP18DeOpRFJUr\ncVfJenQhyKdXybLkT/noBZ/ku2o93+KpvJLcm4F67bgacZG2uX745UcMR0QKEuYM\nnaln1KuJd1782tQyWXX3cKBbGQKBgQDdqsQfiQ0vSFPWFY3iDeYd/lxHfehP7556\nV4tQfHG78GgHSDX3+pyGcX378hdi6q97jA4TChA0Pjml/TwpE6i5msmw3rXxjQue\n2aqS6ZJ+mTPu8HHWqCmMdMNQsKD9QadbD6Ur2NB4L74I1oe1Wc583ii1qKPE5Yre\nhCfwyf2oXQKBgQDEYisezLDb1bfJ3SHpyAb/n4L51ezu9Cj0msXlvWdxrzRCi+0c\nw2SEtT43zt8M95eJvhcp23Y8qVfpsrlH6o5TgMaGRPiDKboBrl44S08GLww7USH8\nllXyCGSZ6KwbuZPM6ICBvPRPS2R4LJDmv1Jl1CvoWy2Hiz8lkew+ewoJEQKBgCfX\n/hC9DcWl9ovQrAQqA2b4xZWEKDHWHGJZQg1hkP/7InfMnwbH4UK5O7ABv/pjvM80\nSYNal7cMSEhx0FKB2h4imIZWQdX9SE1xSpvFqDNhTlhwl8XBzFYW1tS2Kvnaxz4y\n/bl362DvE/V6ukH6tobzV9XvTiCiMef1UUiSxilxAoGAJGc+gBMtXDFSauCKmGQF\nRbNb7hMJKmQgOCrrkVlUyuPZnev7prVFAnAS6rGEi5AMt50z7ji7RlAv219E0z/D\n+5XaNYd6Ku2RfXuHtK2nnQfeWNkW0sOPGoAajNeUKYi+Wjrfc98uPYqR2LsFWHM+\naEagfjOy7Cfk3NbE9vSUgz8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-gnokd@gamers-haven-f02fc.iam.gserviceaccount.com",
+  "client_id": "102861036204591947070",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gnokd%40gamers-haven-f02fc.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
