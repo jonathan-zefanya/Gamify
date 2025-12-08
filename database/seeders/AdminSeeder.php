@@ -18,7 +18,7 @@ class AdminSeeder extends Seeder
         DB::table('admins')->insert([
             'name' => 'admin',
             'username' => 'admin',
-            'email' => 'bugfinder.me@gmail.com',
+            'email' => 'gamify@gmail.com',
             'password' => Hash::make('admin'),
             'status' => 1,
         ]);
