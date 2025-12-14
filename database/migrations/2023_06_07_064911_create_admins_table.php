@@ -23,7 +23,7 @@ return new class extends Migration {
             $table->text('admin_access')->nullable();
             $table->string('last_login', 50)->nullable();
             $table->dateTime('last_seen')->nullable();
-            $table->tinyInteger('status')->default('0')->nullable();
+            $table->integer('status')->default('0')->nullable();
             $table->string('remember_token', 100)->nullable();
             $table->timestamps();
         });

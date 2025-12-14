@@ -31,8 +31,8 @@ return new class extends Migration {
             $table->text('address_one')->nullable();
             $table->text('address_two')->nullable();
             $table->boolean('status')->default(1);
-            $table->tinyInteger('identity_verify')->default(0)->comment("0 => Not Applied, 1=> Applied, 2=> Approved, 3 => Rejected	");
-            $table->tinyInteger('address_verify')->default(0)->comment("0 => Not Applied, 1=> Applied, 2=> Approved, 3 => Rejected");
+            $table->integer('identity_verify')->default(0)->comment("0 => Not Applied, 1=> Applied, 2=> Approved, 3 => Rejected	");
+            $table->integer('address_verify')->default(0)->comment("0 => Not Applied, 1=> Applied, 2=> Approved, 3 => Rejected");
             $table->boolean('two_fa')->default(0);
             $table->boolean('two_fa_verify')->default(1);
             $table->string('two_fa_code')->nullable();

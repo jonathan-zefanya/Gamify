@@ -25,10 +25,10 @@ return new class extends Migration
             $table->string('meta_image_driver', 50)->nullable();
             $table->string('breadcrumb_image')->nullable();
             $table->string('breadcrumb_image_driver', 50)->nullable();
-            $table->tinyInteger('breadcrumb_status')->default(1)->comment('0 => inactive, 1 => active');
-            $table->tinyInteger('status')->default(1)->comment('0 => unpublish, 1 => publish');
-            $table->tinyInteger('type')->default(0)->comment('0 => admin create, 1 => developer create, 2 => create for menus');
-            $table->tinyInteger('is_breadcrumb_img')->default(1);
+            $table->integer('breadcrumb_status')->default(1)->comment('0 => inactive, 1 => active');
+            $table->integer('status')->default(1)->comment('0 => unpublish, 1 => publish');
+            $table->integer('type')->default(0)->comment('0 => admin create, 1 => developer create, 2 => create for menus');
+            $table->integer('is_breadcrumb_img')->default(1);
             $table->timestamps();
         });
     }

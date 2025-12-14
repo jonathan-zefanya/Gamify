@@ -63,7 +63,7 @@ return new class extends Migration
                 '1',
                 '1',
                 'test',
-                NULL,
+                0,
                 NULL,
                 '2020-09-10 09:05:02',
                 '2025-01-08 13:26:49'

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('code');
             $table->string('symbol')->nullable();
             $table->double('rate')->default('1')->comment('1 base currency = rate	');
-            $table->tinyInteger('status')->default('1')->comment('0=>inactive, 1=>active');
+            $table->integer('status')->default('1')->comment('0=>inactive, 1=>active');
             $table->integer('sort_by')->default('1');
             $table->timestamps();
         });

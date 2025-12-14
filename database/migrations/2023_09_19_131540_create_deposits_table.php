@@ -28,7 +28,7 @@ return new class extends Migration {
             $table->string('payment_id')->nullable();
             $table->text('information')->nullable();
             $table->string('trx_id')->nullable();
-            $table->tinyInteger('status')->default(0)->comment("0=pending, 1=success, 2=request, 3=rejected");
+            $table->integer('status')->default(0)->comment("0=pending, 1=success, 2=request, 3=rejected");
             $table->text('note')->nullable();
             $table->timestamps();
         });

@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->foreignId('user_id')->index()->nullable();
             $table->string('ticket')->nullable();
             $table->text('subject')->nullable();
-            $table->tinyInteger('status')->default(0)->comment("0 => Open, 1 => Answered, 2 => Replied, 3 => Closed	");
+            $table->integer('status')->default(0)->comment("0 => Open, 1 => Answered, 2 => Replied, 3 => Closed	");
             $table->timestamp('last_reply')->nullable();
             $table->timestamps();
         });

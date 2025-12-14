@@ -151,4 +151,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(TopUpSell::class, 'user_id')->latest();
     }
+
+    public function supportTickets()
+    {
+        return $this->hasMany(SupportTicket::class, 'user_id')->latest();
+    }
+
+    public function transactions()
+    {
+        return $this->hasMany(Transaction::class, 'user_id')->latest();
+    }
 }

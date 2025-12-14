@@ -22,7 +22,7 @@ return new class extends Migration {
             $table->double('discount')->default(0.00);
             $table->integer('qty')->default(1)->comment("how many code order");
             $table->integer('stock_short')->default(0)->comment("how many code do not get buyer");
-            $table->tinyInteger('status')->default(0)->comment("0=>initiate,1=>complete,2=>refund,3=>stock_short");
+            $table->integer('status')->default(0)->comment("0=>initiate,1=>complete,2=>refund,3=>stock_short");
             $table->text('card_codes')->nullable()->comment("buyer card service code");
             $table->timestamps();
         });
