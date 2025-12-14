@@ -4,6 +4,22 @@ Selamat datang di **Gamify** – platform top-up game dan layanan digital yang d
 
 ---
 
+## 📚 Informasi Proyek
+
+**Gamify** adalah proyek matakuliah **Sistem Informasi** di **Institut Teknologi Indonesia** dengan bimbingan:
+- 👨‍🏫 **Dosen**: Ir. SUMIARTI ANDRI, M.Kom.
+
+### 👥 Tim Pengembang
+Proyek ini dikerjakan secara berkelompok oleh:
+| Nama | NIM | Peran |
+|------|-----|-------|
+| Nathania Englandia S | 1152700020 | 🔵 Project Manager |
+| Jonathan Natannael Z | 1152200024 | 💻 FullStack Programmer |
+| Keysha Nur Khansa U | 1152700035 | 📖 Dokumentasi |
+| Alayha Hafiz | 1152700006 | 🔍 Analisis |
+
+---
+
 ## ✨ Fitur Unggulan
 
 ### 🏆 Untuk Pengguna
