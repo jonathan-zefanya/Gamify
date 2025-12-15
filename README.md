@@ -68,37 +68,71 @@ Agar Gamify berjalan dengan lancar, pastikan server Anda memenuhi persyaratan be
 
 ## 🚀 Cara Install
 
-1. **Clone Repository**
+### ✅ Prasyarat
+- PHP 8.2+ dan MySQL sudah terinstal
+- Composer sudah installed ([Download](https://getcomposer.org/))
+- Git sudah installed
+- **Git LFS** - Install dari [https://git-lfs.github.com/](https://git-lfs.github.com/) (untuk handle file vendor.zip yang besar)
+
+### 📥 Langkah Instalasi
+
+1. **Clone Repository Gamify**
    ```sh
-   git clone https://github.com/JonathanZefanya/Web-TopUp.git
-   cd Web-TopUp
+   git clone https://github.com/jonathan-zefanya/Gamify.git
+   cd Gamify
    ```
+   > Catatan: Git LFS akan otomatis download file `vendor.zip` (103 MB)
 
-2. **Extract vendor.zip**
+2. **Extract vendor.zip dan Install Dependencies**
+   ```sh
+   # Extract vendor.zip
+   tar -xzf vendor.zip
+   
+   # Atau gunakan 7-Zip/WinRAR jika menggunakan Windows
+   # Pastikan hasil extract membuat folder "vendor" di root project
+   ```
+   > `vendor/` folder berisi semua PHP dependencies dan custom modifications
 
-3. **Konfigurasi .env**
+3. **Setup Environment File**
    ```sh
    cp .env.example .env
    ```
-   - Edit file `.env` sesuai dengan konfigurasi database Anda.
+   Edit file `.env` dan sesuaikan konfigurasi:
+   - `DB_HOST` = localhost
+   - `DB_USERNAME` = root (default XAMPP)
+   - `DB_PASSWORD` = (kosongkan atau sesuaikan)
+   - `DB_DATABASE` = gamify (buat database baru)
 
-4. **Generate Key & Migrate Database**
+4. **Generate Application Key**
    ```sh
    php artisan key:generate
-   php artisan migrate --seed
    ```
 
-5. **Build Frontend dengan Vite**
+5. **Import Database Dummy**
    ```sh
-   npm run build
+   mysql -u root -p gamify < dummy.sql
    ```
+   Tekan Enter saat diminta password jika tidak ada
 
-6. **Jalankan Server**
+6. **Jalankan Application**
+   
+   **Option A - Menggunakan Laravel Herd (Recommended)**
    ```sh
-   php artisan serve
+   # Buka Laravel Herd app → Pilih "Gamify" dari daftar site → Klik "Open"
    ```
 
-Website Anda sekarang siap digunakan di `http://127.0.0.1:8000` 🎉
+7. **Akses Website**
+   - Website siap diakses di `http://customdomain.test` 🎉
+   - Default login tersedia di `dummy.sql`
+
+### 🆘 Troubleshooting
+
+| Masalah | Solusi |
+|---------|--------|
+| vendor.zip tidak ter-download | Install Git LFS: `git lfs install` lalu re-clone |
+| Database error | Pastikan database "gamify" sudah dibuat dan credentials di `.env` benar |
+| Port 8000 sudah digunakan | Gunakan: `php artisan serve --port=8001` |
+| Permission denied | Run terminal sebagai Administrator (Windows) atau gunakan `sudo` (Linux/Mac) |
 
 ---
 
