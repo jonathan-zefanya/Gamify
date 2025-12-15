@@ -25,7 +25,6 @@ Proyek ini dikerjakan secara berkelompok oleh:
 ### 🏆 Untuk Pengguna
 - 🔥 **Top-up Games** – Beli item favoritmu dengan mudah
 - 💖 **Wishlist** – Simpan game atau item yang ingin kamu beli
-- 📡 **Live Streaming** – Saksikan dan bagikan gameplay
 - 🔌 **API Content** – Jadi reseller dengan API kami
 - 🎫 **Send Support Ticket** – Butuh bantuan? Hubungi kami langsung
 - ⚡ Dan masih banyak lagi!
@@ -75,11 +74,7 @@ Agar Gamify berjalan dengan lancar, pastikan server Anda memenuhi persyaratan be
    cd Web-TopUp
    ```
 
-2. **Install Dependencies**
-   ```sh
-   composer install
-   npm install
-   ```
+2. **Extract vendor.zip**
 
 3. **Konfigurasi .env**
    ```sh
